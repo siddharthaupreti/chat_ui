@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
-              .copyWith(secondary: Color(0xffef93b)),
+              .copyWith(secondary: Colors.purple),
           fontFamily: GoogleFonts.lato().fontFamily,
         ),
         home: HomeScreen());
